@@ -1,0 +1,61 @@
+/* Importing Google fonts */
+/*@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+*/
+/* Importing components */
+@import url("components/card.css");
+@import url("components/navbar.css");
+@import url("components/landing.css");
+@import url("components/footer.css");
+@import url("components/aboutus.css");
+@import url("components/contact.css");
+
+
+
+/* Importing layouts */
+@import url("pages/content.css");
+
+body {
+  margin: 0;
+/*  font-family: 'Varela Round', sans-serif;
+*/  font-size: 18px;
+  color: #2D3237;
+  background-color: #ECECEC;
+/*  background: #F4F4F4;
+*/}
+
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-weight: lighter;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 23px;
+}
+/*.padded {
+  padding: 30px 0;
+}*/
+.h3 {
+  text-align: center;
+    color: #43292D;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #505951;
+}

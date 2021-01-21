@@ -1,0 +1,44 @@
+.content {
+  display: flex;
+}
+.cards {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 64px;
+  margin-bottom: 100px;
+}
+
+.content {
+  margin: 0 5rem;
+ }
+
+.h3 {
+/*  padding-bottom: 0 32px;
+*/  margin: 2rem 5rem;
+}
+
+
+/*Media Queries*/
+
+/*Smallest device*/
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .content {
+    margin: 0 1rem;
+  }
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 1199px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+  .content {
+    margin: 0 3rem;
+  }
+}
+

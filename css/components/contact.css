@@ -1,0 +1,26 @@
+.far, .fas {
+  font-size: 64px;
+  font-weight: lighter;
+  border: 1px solid #C39D93;
+  padding: 42px;
+  border-radius: 100%;
+  color: #43292D;
+  margin: 24px 0;
+}
+
+.contact {
+  margin: 0 auto;
+  text-align: center;
+  width: 75%;
+}
+
+.important-info {
+  margin: 0 5rem;
+}
+
+
+@media (min-width: 100px) and (max-width: 1199px) {
+  .contact {
+    width: 100%;
+  }
+}
